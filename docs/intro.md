@@ -2,46 +2,108 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# From Java to Go
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Can you imagine Java without the _Class_ data type or Java without the _static_ keyword? It was almost unfathomable to have such
+a thought not too long ago. Even the most basic and rudimentary "Hello World" Java application used to require having at least 
+a _Class_ and the almighty _public static void main_ method, and of course the hellish-looking _System.out_ abomination. 
+
+I'll keep my Java references to the pre-java-17 era for dramatic effect, where the speed of light use to be only slightly faster 
+than the speed of sound, and where most of the enterprise still lives. Without a _Class_ type, the Java world would simply screech
+to a halt. It would be like Armageddon where nobody knows what to do next and nobody knows what to expect.
+
+In Go, there is no formal concept of a _Class_ type, or a _static_ method, and this is the first bombshell which a happy-go-lucky, 
+hippity-hoppity, Java developer skipping through the Go universe encounters and it is terrifying. There is no _implement_ or 
+_extend_ or _abstract_ or _String_. Some other keywords may sound deceptively familiar, like _package_, but the devil is in the 
+details, since the implementation philosophy could be vastly different. But fear not. The Go universe does have precious gold 
+mines that Java developers can only dream of, like dreaming for a gift from _the real Santa_.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+This is an outline of the topics I will cover in charting a way through the mental landmine:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- New project
+- Hello World
+- Values
+- Variables
+- Constants
+- For
+- If/Else
+- Switch
+- Arrays
+- Slices
+- Maps
+- Range
+- Functions
+- Multiple Return Values
+- Variadic Functions
+- Closures
+- Recursion
+- Pointers
+- Strings and Runes
+- Structs
+- Methods
+- Interfaces
+- Enums
+- Struct Embedding
+- Generics
+- Errors
+- Custom Errors
+- Goroutines
+- Channels
+- Channel Buffering
+- Channel Synchronization
+- Channel Directions
+- Select
+- Timeouts
+- Non-Blocking Channel Operations
+- Closing Channels
+- Range over Channels
+- Timers
+- Tickers
+- Worker Pools
+- WaitGroups
+- Rate Limiting
+- Atomic Counters
+- Mutexes
+- Stateful Goroutines
+- Sorting
+- Sorting by Functions
+- Panic
+- Defer
+- Recover
+- String Functions
+- String Formatting
+- Text Templates
+- Regular Expressions
+- JSON
+- XML
+- Time
+- Epoch
+- Time Formatting / Parsing
+- Random Numbers
+- Number Parsing
+- URL Parsing
+- SHA256 Hashes
+- Base64 Encoding
+- Reading Files
+- Writing Files
+- Line Filters
+- File Paths
+- Directories
+- Temporary Files and Directories
+- Embed Directive
+- Testing and Benchmarking
+- Command-Line Arguments
+- Command-Line Flags
+- Command-Line Subcommands
+- Environment Variables
+- Logging
+- HTTP Client
+- HTTP Server
+- Context
+- Spawning Processes
+- Exec'ing Processes
+- Signals
+- Exit
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
